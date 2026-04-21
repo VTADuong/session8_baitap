@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    background-color: rgb(84, 164, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(211, 211, 211, 0.553);
+    padding: 20px;
+}
+.k1, .k2{
+    width: 50% ;
+}
+.k3{
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .k1, .k2, .k3{
+        width: 100%;
+    }
+}
