@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+    line-height: 50px;
+    width: 50%;
+}
+@media screen and (max-width: 480px){
+    div{
+        width: 100%;
+    }
+}
