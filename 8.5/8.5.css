@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    max-width:400px;
+    margin: 0 20px;
+    display: grid;
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 0.5px solid lightgray;
+    align-items: center;
+    gap: 15px;
+}
+.logo{
+    width: 100px;
+    height: 25px;
+}
+.topright{
+    display: flex;
+    gap: 15px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+}
+.imgflag{
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.imgsmall{
+    width: 25px;
+    height: 25px;
+}
+.imgbig{
+    width: 55px;
+    height: 40px;
+    border-left: 0.5px solid lightgray;
+    padding-left: 15px;
+}
+.confirm{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0.5px solid lightgray;
+}
+.yourtour{
+    margin-top: 20px;
+    display: grid;
+    gap: 10px;
+}
+.date-card{
+    background-color: rgba(211, 211, 211, 0.519);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.traveller-card{
+    background-color: rgba(211, 211, 211, 0.519);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pencil{
+    width: 20px;
+}
+.date-value, .traveller-value{
+    color: gray;
+}
+.hotel-info{
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+}
+.hotel-star{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.star{
+    width: 20px
+}
+.hotel-review{
+    color: gray;
+}
+.hotelpicture{
+    width: 400px;
+    border-radius: 5px;
+}
+.room-info{
+    color: gray;
+    padding: 10px;
+}
+.room-bottom{
+    width: 50%;
+}
+.CICO{
+    display: flex;
+    justify-content: space-between;
+}
+.CI, .CO{
+    padding: 10px;
+}
+.guests{
+    width: 50%;
+    padding: 10px;
+}
+.pio{
+    color: darkgray;
+}
+.vio{
+    color: gray;
+}
+.book-info{
+    display: grid;
+    gap: 20px;
+}
+.price, .off, .fee, .total{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.bookval{
+    color: gray;
+}
+.total{
+    background-color:lightgray;
+    border-radius: 10px;
+}
+.reportbutton{
+    background: none;
+    border: none;
+    color: lightgray;
+    margin: 5px;
+}
+.creaditpic{
+    width: 450px;
+}
+.cardpic{
+    display: flex;
+    margin: 10px auto;
+    width: 380px;
+    height: 140px;
+    place-items: center;
+}
+.cardform, .exform, .cvcform{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.cardvalue{
+    width: calc(100% - 10px);
+    background-color: rgba(211, 211, 211, 0.28);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 0.5px solid blueviolet;
+}
+.excvc{
+    display: flex;
+    justify-content: space-between;
+}
+.exvalue, .cvcvalue{
+    width: calc(100% - 10px);
+    background-color: rgba(211, 211, 211, 0.28);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    border: 0.5px solid darkgray;
+    margin: 10px 0;
+}
+.saveform{
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+.confirmbt{
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 10px);
+    background-color: rgba(0, 0, 255, 0.695);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.get-offers{
+   background-color: rgba(0, 0, 255, 0.695);
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   display: grid;
+   gap: 10px;
+    width: calc(100% - 10px);
+}
+.mailsub{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mailbt{
+    padding: 20px;
+    border: none;
+    height: 20px;
+}
+.subbt{
+    padding: 0px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.ser, .sup, .bus{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+.ser, .sup{
+    border-bottom: 0.5px solid lightgray;
+    padding: 20px 0;
+}
+.mini{
+    width: 100%;
+    text-decoration: none;
+    color: gray;
+}
+.mood{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.night{
+    width: 35px;
+    height: 35px;
+}
+.day{
+    background-color: rgba(211, 211, 211, 0.376);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
